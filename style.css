@@ -1,25 +1,65 @@
 body {
     margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,0.87);
 }
 
 header {
     height: 50px;
-    background-color: black;
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
 }
 
 .header-container {
     max-width: 900px;
     margin: 0 auto;
-    background-color: blue;
     height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.left-nav nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left-nav nav ul li{
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.left-nav nav ul li:hover {
+    color: #008248;
 }
 
 .logo {
     height: 25px;
     width: 25px;
+    display: flex;
 }
 
 .logo img{
     height: 100%;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.find-store {
+    display: flex;
+    align-items: center;
 }
