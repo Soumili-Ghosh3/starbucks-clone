@@ -22,6 +22,7 @@
 
 .left-right-section {
     display: flex;
+    margin-bottom: 24px;
 }
 
 .left-right-section .text {
@@ -37,12 +38,11 @@
 
 .left-right-section .image {
     width: 50%;
-    height: 263px;
+    display: flex;
 }
 
 .left-right-section .image img {
-    height: 100%;
-
+    width: 100%;
 }
 
 .text h1, .text h3 {
@@ -53,11 +53,13 @@
 .text h1 {
     margin-bottom: 24px;
     font-size: 15px;
+    text-align: center;
 }
 
 .text h3 {
     margin-bottom: 30px;
     font-size: 12px;
+    text-align: center;
 }
 
 .text .cta {
@@ -71,8 +73,24 @@
     transition: all 0.2s ease;
 }
 
-
 .text .cta:hover {
     background-color: rgba(0,0,0,0.06);
     padding: 7px 20px;
+}
+
+.chill .text {
+    background-color: #f2f0eb;
+}
+
+.chill .text h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.chill .text h3 {
+    font-size: 15px;
+    line-height: 1.5;
 }
