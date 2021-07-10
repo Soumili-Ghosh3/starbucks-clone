@@ -6,4 +6,37 @@ footer{
 
 .footer-container {
     padding: 0 40px;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container ul li{
+    color: rgba(0,0,0,0.56);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.footer-container ul li:hover {
+    color: rgba(0,0,0,0.87);
+}
+
+.links-container{
+    width: 170px;
+    margin-right: 50px;
+}
+
+footer h3{
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-size: 15px;
 }

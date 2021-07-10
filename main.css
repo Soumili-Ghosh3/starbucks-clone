@@ -171,3 +171,24 @@ section {
     flex-direction: column;
     margin-bottom: 32px;
 }
+
+.last {
+    height: 270px;
+}
+
+.last .text {
+    background-color: #d4e9e2;
+}
+
+.last .text h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.last .text h3 {
+    font-size: 15px;
+    line-height: 1.5;
+}
